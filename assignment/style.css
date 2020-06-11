@@ -2,33 +2,42 @@
 body {
     background-color:papayawhip;
     line-height: 1.5;
+    margin: 0;
 }
 /* Make the header and footer a different color from the background */
 .header{
     background-color: #f02020;
-    padding-bottom: 15px;
-    margin: 0;
-    width: 100%;
+    padding-bottom: 5px;
+    display: block;
+    padding-top: 2px;
 } 
 .footer {
     background-color: #f02020;
     padding-top: 5px;
     padding-bottom: 20px;
+    margin: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
     text-align: center;
 }
+
 /* Make your p tag a different color and italic */
 p {
     color: navy;
     font-style: italic;
+    text-align: center;
 }
 
 /* Put a border around your image */
 img {
     border: solid #006400 5px;
     margin-top: 20px;
+    margin-left: 15px;
+
 }
 /* Change the font-family of your list */
 
@@ -36,5 +45,15 @@ img {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     list-style-type: none;
     display: block;
+    padding: 0 5px 10px 0;
+    margin-left: 15px;
 }
 
+h2{
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+a:hover{
+    color: greenyellow;
+}
